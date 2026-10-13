@@ -50,4 +50,19 @@ button {
     color: #1D2180;
 }
 
+ul {
+    list-style: none;
+}
 
+.list {
+    margin: 3rem;
+}
+
+.list h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2rem;
+}

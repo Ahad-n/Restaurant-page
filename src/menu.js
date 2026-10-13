@@ -1,6 +1,6 @@
 export default function() {
     const intro = document.createElement('h2');
-    intro.textContent = "የለለን የምግብ አይነት የለም (ከገንፎ በስተቀር)";
+    intro.textContent = "ዘርፈብዙ ምግንቦቻችን";
 
     // append special food list
     const special = document.createElement('div');
@@ -50,9 +50,9 @@ export default function() {
     const quicksHeading = document.createElement('h3');
     quicksHeading.textContent = 'ለቸኮሉ';
     quicks.classList.add('list');
-
+    
     const quicksList = document.createElement('ul');
-
+    
     const li9 = document.createElement('li');
     const li10 = document.createElement('li');
     const li11 = document.createElement('li');
@@ -63,7 +63,10 @@ export default function() {
 
     quicksList.append(li9, li10, li11);
     quicks.append(quicksHeading, quicksList);
+    
+    const others = document.createElement('h3');
+    others.textContent = "ሎሎች ምግቦቹን ጠረጴዛው ያለው ዝርዝር ላይ ያገኛሉ"
 
     const content = document.querySelector('#content');
-    content.append(intro, special, uniques, quicks);
+    content.append(intro, special, uniques, quicks, others);
 }
