@@ -33,4 +33,10 @@ button {
     background-color: #41D2EF;
     flex: 1;
     border: none;
+    padding: 1rem 0 .5rem;
+}
+
+.highlight-tab {
+    background-color: #1D2180;
+    color: #fff;
 }
