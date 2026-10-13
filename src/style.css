@@ -66,3 +66,7 @@ ul {
 h2 {
     font-size: 2rem;
 }
+
+#content > h3 {
+    margin: 3rem;
+}
