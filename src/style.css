@@ -25,3 +25,12 @@ h1 {
     font-size: 5rem;
 }
 
+nav {
+    display: flex;
+}
+
+button {
+    background-color: #41D2EF;
+    flex: 1;
+    border: none;
+}
