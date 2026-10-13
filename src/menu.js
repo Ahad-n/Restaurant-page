@@ -65,5 +65,5 @@ export default function() {
     quicks.append(quicksHeading, quicksList);
 
     const content = document.querySelector('#content');
-    content.append(special, uniques, quicks);
+    content.append(intro, special, uniques, quicks);
 }
