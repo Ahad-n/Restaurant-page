@@ -40,3 +40,12 @@ button {
     background-color: #1D2180;
     color: #fff;
 }
+
+.brand-name {
+    margin-top: 8rem;
+}
+
+.wellcome-text {
+    font-size: 1.5rem;
+    color: #1D2180;
+}

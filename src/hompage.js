@@ -1,13 +1,15 @@
-import foodImage from "./assets/meskkot.jpg";
 
 export default function() {
     const content = document.querySelector('#content');
-    const image = document.createElement('img');
     const heading = document.createElement('h1');
     heading.classList.add('header');
 
-    image.src = foodImage;
     heading.textContent = "ልብሴ ሬስቶራንት";
+    heading.classList.add('brand-name')
 
-    content.append(heading, image);
+    const wellcomeText = document.createElement('div');
+    wellcomeText.textContent = "እንኳን ደህና መጡ"
+    wellcomeText.classList.add('wellcome-text');
+
+    content.append(heading, wellcomeText);
 }
