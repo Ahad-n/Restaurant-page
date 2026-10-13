@@ -24,4 +24,4 @@ nav.addEventListener('click', event => {
 
 
 
-loadMenu();
+loadAbout();
