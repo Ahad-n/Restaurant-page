@@ -1,6 +1,9 @@
 import "./normalize.css";
 import "./style.css";
-import loadHompage from "./hompage.js";
+import loadHome from "./hompage.js";
+import loadMenu from "./menu.js";
+import loadAbout from "./hompage.js";
+
 
 // style active tabs
 const nav = document.querySelector('nav');
@@ -21,4 +24,4 @@ nav.addEventListener('click', event => {
 
 
 
-loadHompage();
+loadMenu();
