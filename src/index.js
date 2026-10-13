@@ -2,7 +2,7 @@ import "./normalize.css";
 import "./style.css";
 import loadHome from "./hompage.js";
 import loadMenu from "./menu.js";
-import loadAbout from "./hompage.js";
+import loadAbout from "./about.js";
 
 
 // style active tabs
@@ -17,11 +17,23 @@ nav.addEventListener('click', event => {
     // highlight current active tab
     const activeTab = event.target;
     activeTab.classList.toggle('highlight-tab');
+
+    // wipe old content
+    const content = document.querySelector('#content');
+    content.textContent = '';
+
+    // generate new content
+    switch (activeTab.textContent) {
+        case 'Home':
+            loadHome();
+            break;
+        case 'Menu':
+            loadMenu();
+            break;
+        case 'About':
+            loadAbout();
+            break;
+    }
 });
 
-
-
-
-
-
-loadAbout();
+loadHome();
