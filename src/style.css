@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "AA unicode";
+    src: url(assets/fonts/A0_Addis_Abeba_Unicode_20030827_e3a95c0418.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Habesha Doxa";
+    src: url(assets/fonts/habesha_doxa_Samuel_Minassie_4f1a5e5c6a.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
